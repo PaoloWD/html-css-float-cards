@@ -39,6 +39,12 @@ a{
     float: left;
 }
 
+/* .container .profiles .banner:first-child div:nth-child(2){
+    padding-top: 1rem;
+    font-weight: bold;
+    background-color: red;
+}
+*/
 p{
     padding: 3rem 0;
 }
@@ -64,10 +70,10 @@ p{
     float: left;
     background-color: black;
     height: 8rem;
-    
 }
 
 .name{
     padding-top: 1rem;
     font-weight: bold;
 }
+

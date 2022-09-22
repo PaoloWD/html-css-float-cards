@@ -3,3 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(94, 177, 255);
+}
+
+.container .profiles .banner{
+    width: calc((100%/3) - (5rem/3));
+}
+
+.container .profiles .banner:not(:last-child)
+{
+    margin-right: 1.5rem;
+}
+
+.container .profiles .banner img{
+    height: 8rem;
+    padding-right: 2rem;
+    float: left;
+}
+
+.container .profiles .banner> div{
+    padding-bottom: 1rem;
+
+}
+
+.name, .role, .e-mail{
+    float: left;
+}
+
+p{
+    padding: 3rem 0;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(212, 72, 142);
+}
+
+.container{
+    margin: auto;
+    width: 75%;
+}
+
+.profiles{
+    color: white;
+}
+
+.banner{
+
+    float: left;
+    background-color: black;
+    height: 8rem;
+    margin-bottom: 4rem;
+}
+
+.name{
+    padding-top: 1rem;
+    font-weight: bold;
+}

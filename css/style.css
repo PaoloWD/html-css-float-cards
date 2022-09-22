@@ -24,6 +24,10 @@ a{
     margin-right: 1.5rem;
 }
 
+.container .profiles .banner{
+    margin-bottom: 2rem;
+}
+
 .container .profiles .banner img{
     height: 8rem;
     padding-right: 2rem;
@@ -32,10 +36,6 @@ a{
 
 .container .profiles .banner> div{
     padding-bottom: 1rem;
-
-}
-
-.name, .role, .e-mail{
     float: left;
 }
 
@@ -64,7 +64,7 @@ p{
     float: left;
     background-color: black;
     height: 8rem;
-    margin-bottom: 4rem;
+    
 }
 
 .name{

@@ -10,23 +10,19 @@
     clear: both;
 }
 
-a{
+.container .profiles .banner div> a{
     text-decoration: none;
     color: rgb(94, 177, 255);
 }
 
-.container .profiles .banner{
-    width: calc((100%/3) - (5rem/3));
-}
-
-.container .profiles .banner:not(:last-child)
+.container .profiles .banner
 {
+    width: calc((100%/3) - (5rem/3));
     margin-right: 1.5rem;
-}
-
-.container .profiles .banner{
     margin-bottom: 2rem;
 }
+
+
 
 .container .profiles .banner img{
     height: 8rem;
@@ -36,7 +32,7 @@ a{
 
 .container .profiles .banner> div{
     padding-bottom: 1rem;
-    float: left;
+    
 }
 
 /* .container .profiles .banner:first-child div:nth-child(2){
@@ -59,7 +55,7 @@ p{
 
 .container{
     margin: auto;
-    width: 75%;
+    width: 920px;
 }
 
 .profiles{
